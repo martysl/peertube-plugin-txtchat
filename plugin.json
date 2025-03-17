@@ -1,0 +1,15 @@
+ 
+{
+  "name": "peertube-plugin-live-chat",
+  "version": "1.0.0",
+  "description": "Live chat plugin for PeerTube based on text files",
+  "homepage": "https://github.com/martysl/peertube-plugin-txtchat",
+  "clientScripts": [
+    {
+      "script": "client/live-chat-client.js",
+      "scopes": ["video-watch"]
+    }
+  ],
+  "css": [],
+  "settings": {}
+}
